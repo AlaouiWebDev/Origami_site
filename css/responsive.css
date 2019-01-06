@@ -1,0 +1,152 @@
+@media only screen and (max-device-width : 640px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .menu-haut, .menu-bas ul, .searchBar {
+    display: none;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-top: 130px;
+  }
+
+  .call-to-action {
+    padding: 20px 22px;
+    width: 137px;
+    margin-bottom: 72px;
+  }
+
+  .tokyo {
+    height: 200px;
+    margin-top: 40px;
+  }
+
+  .imagelogo {
+    height: 75px;
+    left: 18px;
+    top: 10px;
+  }
+
+  .panier {
+    color: white;
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .ecolier {
+    flex-direction: column;
+  }
+
+  .product-row .container {
+    flex-direction: column;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .txt-product {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  a.boutonpanier {
+    padding: 9px 68px;
+    text-align: center;
+  }
+
+  .promotion .elementspromotion span {
+    display: block;
+  }
+
+  .promotion .alignprom {
+    flex-direction: column;
+    width: auto;
+    padding: 0 15px;
+  }
+
+  .avantages .container {
+    flex-direction: column;
+  }
+
+  .product header.goku {
+    height: 370px
+  }
+
+  .product header.gundam {
+    height: 370px
+  }
+
+  .product header.shogi {
+    height: 370px
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instagramlogo {
+    display: none;
+  }
+
+  .facebooklogo {
+    display: none;
+  }
+
+  .twitterlogo {
+    display: none;
+  }
+
+  .ecolierimage {
+    height: auto;
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .ecolier p {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  .concept {
+    padding-bottom: 20px;
+  }
+
+  .noticeconcept {
+    margin-left: 0;
+  }
+
+  .logo-responsive {
+    display: block;
+  }
+
+  .logo-responsive img {
+    margin: 14px;
+  }
+
+  input.valider {
+    padding: 15px 45px;
+    border-radius: 30px;
+    background-color: #ba3e3e;
+    color: white
+  }
+
+  .panier-responsive {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 30px;
+  }
+
+  .panier-responsive i {
+    color: white;
+    margin: 20px;
+  }
+}
